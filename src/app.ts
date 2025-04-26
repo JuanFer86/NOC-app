@@ -7,6 +7,6 @@ import "dotenv/config";
 })();
 
 function main() {
-  console.log(envs);
-  // Server.start();
+  // console.log(envs);
+  Server.start();
 }

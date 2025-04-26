@@ -10,8 +10,12 @@ Objective is create a certain tasks using clean architecture with typescript
 ```
 PORT=3000
 
+MAILER_SERVICE=
 MAILER_EMAIL=
 MAILER_SECRET_KEY=
 
 PROD=false
 ```
+
+3. Run command `npm install`
+4. Run command `npm run dev `
