@@ -38,19 +38,19 @@ export class EmailService {
       });
 
       //   console.log(sentInformation);
-      const log = new LogEntity({
-        level: LogSeverityLevel.low,
-        message: `Email sent`,
-        origin: "email-service.ts",
-      });
+      // const log = new LogEntity({
+      //   level: LogSeverityLevel.low,
+      //   message: `Email sent`,
+      //   origin: "email-service.ts",
+      // });
 
       return true;
     } catch (error) {
-      const log = new LogEntity({
-        level: LogSeverityLevel.high,
-        message: `Email was not sent`,
-        origin: "email-service.ts",
-      });
+      // const log = new LogEntity({
+      //   level: LogSeverityLevel.high,
+      //   message: `Email was not sent`,
+      //   origin: "email-service.ts",
+      // });
 
       return false;
     }
